@@ -1,0 +1,11 @@
+Inicio Ejercicio7
+	Variable numeroAleatorio
+	
+	numeroAleatorio = función aleatorio(10, 50)
+	
+	Escribir "Numero generado aleatoriamente entre 10-50 es: " numeroAleatorio
+	
+	numeroAleatorio = numeroAleatorio - numeroAleatorio*0.15
+	
+	Escribir "El numero disminuido a un 15% es: " numeroAleatorio
+Fin
