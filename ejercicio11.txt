@@ -1,0 +1,21 @@
+Inicio Ejercicio11
+
+	Variable centimetro
+	Variable auxiliar
+	
+	Escribir "Ingrese una medida en centimetros: "
+	Leer centimetro
+	
+	auxiliar = centimetro/91.44
+	Escribir auxiliar "cm equivale a: " auxiliar "yardas"
+	
+	auxiliar = centimetro/100
+	Escribir centimetro "cm equivale a: " auxiliar "metros"	
+	
+	auxiliar = centimetro/30.48
+	Escribir centimetro "cm equivale a: " auxiliar "pies"
+	
+	auxiliar = centimetro/2.54
+	Escribir centimetro "cm equivale a: " auxiliar "pulgadas"
+	
+Fin
