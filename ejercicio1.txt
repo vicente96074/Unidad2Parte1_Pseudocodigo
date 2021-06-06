@@ -1,0 +1,15 @@
+Inicio Ejercicio1
+
+	variable numero1
+	variable numero2
+	Variable resultado
+	
+	Escribir "Ingrese un numero"
+	Leer numero1
+	Escribir "Ingrese otro numero"
+	Leer numero2
+	
+	resultado = numero1 + numero2
+	Escribir "La suma es: "+resultado
+	
+FIn
