@@ -1,0 +1,19 @@
+Inicio Ejercicio10
+
+	Variable base
+	Variable altura
+	Variable area
+	Variable perimetro
+	
+	Escribir "Ingrese la base: "
+	Leer base
+	Escribir "Ingrese la altura: "
+	Leer altura
+	
+	area = base*altura
+	perimetro = 2*base + 2*altura
+	
+	Escribir "El area es: " area
+	Escribir "El perimetro es: " perimetro
+	
+Fin
