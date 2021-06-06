@@ -1,0 +1,15 @@
+Inicio Ejercicio4
+	Variable numero
+	Variable cuadrado
+	Variable cubo
+	
+	Escribir "Ingrese un numero"
+	Leer numero
+	
+	doble = numero*numero
+	triple = numero*numero*numero
+	
+	Escribir "El cuadrado del numero ingresado es: " cuadrado
+	Escribir "El cubo del numero ingresado es: " cubo
+	
+Fin
