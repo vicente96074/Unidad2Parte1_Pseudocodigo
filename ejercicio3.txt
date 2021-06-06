@@ -1,0 +1,15 @@
+Inicio Ejercicio3
+	Variable numero
+	Variable doble
+	Variable triple
+	
+	Escribir "Ingrese un numero"
+	Leer numero
+	
+	doble = 2*numero
+	triple = 3*numero
+	
+	Escribir "El doble del numero ingresado es: " doble
+	Escribir "El triple del numero ingresado es: " triple
+	
+Fin
