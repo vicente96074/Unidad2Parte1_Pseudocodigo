@@ -1,0 +1,11 @@
+Inicio Ejercicio6
+	Variable numeroAleatorio
+	
+	numeroAleatorio = función aleatorio(0, 200)
+	
+	Escribir "Numero generado aleatoriamente entre 0-200 es: " numeroAleatorio
+	
+	numeroAleatorio = numeroAleatorio + numeroAleatorio*0.3
+	
+	Escribir "El numero aumentado a un 30% es: " numeroAleatorio
+Fin
