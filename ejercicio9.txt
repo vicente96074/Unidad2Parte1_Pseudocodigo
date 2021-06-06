@@ -1,0 +1,21 @@
+Inicio Ejercicio9
+	Variable letra1
+	Variable letra2
+	Variable auxiliar
+	
+	Escribir "Ingrese la letra1: "
+	Leer letra1
+	Escribir "Ingrese la letra2: "
+	Leer letra2
+	
+	Escribir "Usted ingreso letra1: " letra1
+	Escribir "Usted ingreso letra2: " letra2	
+	
+	auxiliar = letra1
+	letra1 = letra2
+	letra2 = auxiliar
+	
+	Escribir "Letra1 intercambiado: " letra1
+	Escribir "Letra2 intercambiado: " letra2
+	
+Fin
