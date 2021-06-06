@@ -1,0 +1,11 @@
+Inicio Ejercicio5
+	Variable numero
+	
+	
+	Escribir "Ingrese un numero"
+	Leer numero
+	
+	numero = numero + 1
+	
+	Escribir "El numero siguiente es: " numero
+Fin
