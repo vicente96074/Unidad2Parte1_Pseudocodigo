@@ -1,0 +1,13 @@
+Inicio Ejercicio2
+
+	Variable pais
+	Variable capital
+	
+	Escribir "Ingrese el pais"
+	Leer pais
+	Escribir "Ingrese la capital del pais"
+	Leer capital
+	
+	Escribir capital " es la capital de " pais
+	
+Fin
