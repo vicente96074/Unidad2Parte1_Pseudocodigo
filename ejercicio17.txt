@@ -1,0 +1,23 @@
+Inicio Ejercicio17
+
+	Variable lado1
+	Variable lado2
+	Variable lado3
+	
+	Escribir "Ingresar lado1 del triangulo"
+	Leer lado1
+	Escribir "Ingresar lado2 del triangulo"
+	Leer lado2
+	Escribir "Ingresar lado3 del triangulo"
+	Leer lado3
+	
+	Si (lado1 == lado2 && lado2 == lado3) hacer
+		Escribir "El triangulo es equilatero"
+	FinSi
+	Sino (lado1!=lado2 && lado2!=lado3 && lado3!=lado1) hacer
+		Escribir "El triangulo es escaleno"
+	FinSino
+	Sino (lado1==lado2 || lado1==lado3 || lado lado2==lado3) hacer
+		Escribir "El triangulo es isoceles"
+	FinSino
+Fin
