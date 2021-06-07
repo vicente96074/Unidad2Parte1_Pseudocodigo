@@ -1,0 +1,14 @@
+Inicio Ejercicio19
+
+	Variable numeroAleatorio
+	
+	numerAleatorio = funcionAleatorio(0, 1000)
+	
+	Escribir "Numero generado aleatoriamente: " aleatorio
+	Si(numerAleatoiro%5==0 && numerAleatorio<=25) hacer
+		Escribir "Correcto"
+	FinSi
+	Sino
+		Escribir "Incorrecto"
+	FinSino
+Fin
