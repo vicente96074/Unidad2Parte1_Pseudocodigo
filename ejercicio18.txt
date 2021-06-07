@@ -1,0 +1,22 @@
+Inicio Ejercicio18
+
+	Variable numero
+	Variable digito1 = 0
+	Variable digito2 = 0
+	Variable digito3 = 0
+	Variable digito4 = 0
+	Variable suma
+	
+	Escribir "Escriba un numero maximo 4 digitos"
+	Leer numero
+	
+	digito1 = substr(numero, 1, 1)
+	digito2 = substr(numero, 2, 1)
+	digito3 = substr(numero, 3, 1)
+	digito4 = substr(numero, 4, 1)	
+	
+	suma = (digito1 + digito2 + digito3 + digito4)
+	
+	Escribir "La suma de los digitos es: " suma
+	
+Fin
