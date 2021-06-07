@@ -1,0 +1,31 @@
+Inicio Ejercicio20
+	
+	Variable numero
+	Variable digito1
+	Variable digito2
+	Variable digito3
+	Variable digito4
+	Variable digito5
+	Variable capicua
+	
+	Escribir "Escriba un numero de 5 digitos"
+	Leer numero
+	
+	digito1 = substr(numero, 1, 1)
+	digito2 = substr(numero, 2, 1)
+	digito3 = substr(numero, 3, 1)
+	digito4 = substr(numero, 4, 1)
+	digito5 = substr(numero, 5, 1)
+	
+	//funcionConcatenar(digito5, digito4, digito3, digito2, digito1) retorna un numero de 5 digitos
+	
+	capicua = funcionConcatenar(digito5, digito4, digito3, digito2, digito1)
+	
+	Si (capicua == numero) hacer
+		Escribir "Es capicua"
+	FinSi
+	Sino
+		Escribrir "No es capicua"
+	FinSino
+	
+Fin
