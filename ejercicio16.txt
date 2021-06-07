@@ -1,0 +1,25 @@
+Inicio Ejercicio16
+
+	Variable numero1
+	Variable numero2
+	Variable numero3
+	
+	Escribir "Ingrese numero1: "
+	Leer numero1
+	Escribir "Ingrese numero2: "
+	Leer numero2
+	Escribir "Ingrese numero3: "
+	Leer numero3
+	
+	Si(numero1>numero2 && numero2>numero3) hacer
+		Escribir "Numero1 es el mayor de todos"
+	FinSi
+	Sino(numero2>numero3 && numero3>numero1) hacer
+		Escribir "Numero2 es el mayor de todos"
+	FinSino
+	Sino(numero3>numero1 && numero1>numero2) hacer
+		Escribir "Numero1 es el mayor de todos"
+	FinSino		
+
+	
+Fin
