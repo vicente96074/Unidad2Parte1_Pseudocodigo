@@ -1,0 +1,18 @@
+Inicio Ejercicio15
+		
+	Variable numero
+	
+	Escribir "Ingrese un numero: "
+	Leer numero
+	
+	Si (numero = 0 ) hacer
+		Escribir "El numero ingresado es nulo"
+	FinSi
+	Sino (numero >0 ) hacer
+		Escribir "El numero ingresado es positivo"
+	FinSino
+	Sino(numero<0) hacer
+		Escribir "El numero ingresado es negativo"
+	FinSino
+	
+Fin
