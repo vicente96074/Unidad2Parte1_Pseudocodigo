@@ -1,0 +1,13 @@
+Inicio Ejercicio12
+
+	Variable temperaturaCelsius
+	Variable temperaturaFahreheit
+	
+	Escribir "Ingrese los grados en celsius: "
+	Leer temperaturaCelsius
+	
+	temperaturaFahreheit = (temperaturaCelsius*(9/5)) + 32
+	
+	Escribir "La temperatura equivalente a grados Fahreheit es: " temperaturaFahreheit
+	
+Fin
