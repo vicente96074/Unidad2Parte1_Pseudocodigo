@@ -1,0 +1,26 @@
+Inicio Ejercicio13
+
+	Variable radio
+	Variable altura
+	Variable volumen
+	Constante pi = 3.14151
+	
+	Escribir "Ingrese le radio del cilindro: "
+	Leer radio
+	Escribir "Ingrese la altura del cilindro: "
+	Leer altura
+	
+	Si (radio>0) hacer
+		Si (altura>0) hacer
+			volumen = radio*radio*altura*pi
+			Escribir "El volumen del cilindro es: " volumen
+		FinSi
+		Sino(altura<=0)
+			Escribir "La altura ingresada es diferente de positivo"
+		FinSino
+	FinSi
+	Sino(radio<=0)
+		Escribir "El radio del cilindro es diferente de positivo"
+	FinSino
+
+Fin
