@@ -13,6 +13,7 @@ public class Ejercicio2{
 		System.out.print("Ingrese la capital del pais: ");
 		capital = entrada.nextLine();		
 		
-		System.out.println(capital + " es la capital de " + pais);		
+		System.out.println(capital + " es la capital de " + resultado);		
 	}
+	
 }
